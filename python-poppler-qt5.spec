@@ -10,6 +10,7 @@ Source0:	https://github.com/wbsoft/python-poppler-qt5/releases/python-poppler-qt
 Patch1:		c968263b748950c0cbef36581a188170df735c8f.patch
 BuildRequires:	python-devel
 BuildRequires:	python-qt5-devel
+BuildRequires:	qt5-devel
 BuildRequires:	pkgconfig(poppler-qt5) >= 0.12.0
 BuildRequires:	python-sip >= 4.9.1
 BuildRequires:	python-distribute
