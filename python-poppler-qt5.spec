@@ -26,6 +26,7 @@ programs written in Python and using Poppler set.
 
 %install
 export PATH=%_libdir/qt5/bin:$PATH
+export CFLAGS='-std=c++11'
 python setup.py install --single-version-externally-managed --root=%{buildroot} build_ext -lQt5Core,Qt5Gui
 
 %files
