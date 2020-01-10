@@ -22,7 +22,7 @@ programs written in Python and using Poppler set.
 
 %prep
 %setup -q
-%apply_patches
+%autopatch -p1
 
 %install
 export PATH=%_libdir/qt5/bin:$PATH
