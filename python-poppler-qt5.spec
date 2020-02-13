@@ -1,13 +1,12 @@
 %define _disable_ld_no_undefined 1
 Name:		python-poppler-qt5
-Version:	0.24.2
+Version:	0.75.0
 Release:	1
 Summary:	Python bindings for the Poppler PDF rendering library
 Group:		Office
 License:	LGPLv2+
 URL:		https://github.com/wbsoft/python-poppler-qt5
 Source0:	https://github.com/wbsoft/python-poppler-qt5/releases/python-poppler-qt5-%{version}.tar.gz
-Patch1:		c968263b748950c0cbef36581a188170df735c8f.patch
 BuildRequires:	python-devel
 BuildRequires:	python-qt5-devel
 BuildRequires:	qt5-devel
