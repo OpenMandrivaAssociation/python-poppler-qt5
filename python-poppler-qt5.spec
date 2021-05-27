@@ -14,6 +14,7 @@ BuildRequires:	qt5-devel
 BuildRequires:	pkgconfig(poppler-qt5) >= 0.12.0
 BuildRequires:	python-distribute
 BuildRequires:	python-sip
+BuildRequires:	python3dist(pyqt5-sip)
 
 %description
 Python bindings for the Poppler PDF rendering library. It is needed to run
