@@ -6,7 +6,7 @@ Summary:	Python bindings for the Poppler PDF rendering library
 Group:		Office
 License:	LGPLv2+
 URL:		https://github.com/frescobaldi/python-poppler-qt5
-Source0:	https://github.com/frescobaldi/python-poppler-qt5/archive/refs/tags/v%{version}.tar.gz
+Source0:	https://github.com/frescobaldi/python-poppler-qt5/archive/refs/tags/v%{version}/python-poppler-qt5-%{version}.tar.gz
 BuildRequires:	python-devel
 BuildRequires:	python-qt5-devel
 BuildRequires:	qt5-devel
