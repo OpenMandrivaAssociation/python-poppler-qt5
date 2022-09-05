@@ -1,13 +1,12 @@
 %define _disable_ld_no_undefined 1
 Name:		python-poppler-qt5
-Version:	21.1.0
-Release:	2
+Version:	21.3.0
+Release:	1
 Summary:	Python bindings for the Poppler PDF rendering library
 Group:		Office
 License:	LGPLv2+
 URL:		https://github.com/frescobaldi/python-poppler-qt5
-Source0:	https://github.com/frescobaldi/python-poppler-qt5/archive/refs/tags/v21.1.0.tar.gz
-Patch0:		https://github.com/frescobaldi/python-poppler-qt5/pull/45.patch
+Source0:	https://github.com/frescobaldi/python-poppler-qt5/archive/refs/tags/v%{version}.tar.gz
 BuildRequires:	python-devel
 BuildRequires:	python-qt5-devel
 BuildRequires:	qt5-devel
