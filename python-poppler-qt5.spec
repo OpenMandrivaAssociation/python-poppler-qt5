@@ -1,7 +1,7 @@
 %define _disable_ld_no_undefined 1
 Name:		python-poppler-qt5
 Version:	21.3.0
-Release:	1
+Release:	2
 Summary:	Python bindings for the Poppler PDF rendering library
 Group:		Office
 License:	LGPLv2+
